@@ -8,6 +8,9 @@ const LayoutComponents = ({ children }) => {
     return (
         <div>
             <Layout
+                style={{ 
+                    background: '#181818'
+                 }}
             >
                 {/* Header */}
                 <HeaderComponent/>
@@ -21,8 +24,8 @@ const LayoutComponents = ({ children }) => {
                 >
                     <div
                     style={{ 
-                        padding: "24px",
-                        minHeight: "380",
+                        padding: '24px',
+                        minHeight: '380',
                      }}
                     >
                         {children}
