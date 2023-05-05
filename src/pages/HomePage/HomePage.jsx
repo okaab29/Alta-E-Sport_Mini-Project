@@ -1,9 +1,14 @@
 import React from 'react';
+import CarouselSection from './carouselSection/CarouselSection';
+import AboutUsSection from './aboutUsSection/AboutUsSection';
+import FeatureSection from './featureSection/FeatureSection';
 
 const HomePage = () => {
     return (
         <div>
-            home
+            <CarouselSection/>
+            <AboutUsSection/>
+            <FeatureSection/>
         </div>
     );
 }

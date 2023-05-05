@@ -18,13 +18,9 @@ const LayoutComponents = ({ children }) => {
                 {/* Content */}
                 <Content
                     className='site-layout'
-                    style={{ 
-                        padding: "0 50px"
-                     }}
                 >
                     <div
                     style={{ 
-                        padding: '24px',
                         minHeight: '380',
                      }}
                     >
