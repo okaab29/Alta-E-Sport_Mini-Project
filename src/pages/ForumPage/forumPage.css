@@ -1,0 +1,17 @@
+.logo-forum{
+    width: 300px;
+}
+.container-forum{
+    padding: 30px;
+    background-color: white;
+    margin: 20px 70px;
+    border-radius: 10px;
+}
+.inner-container{
+    padding: 40px 70px;
+    background-color: #373739;
+    border-radius: 10px;
+}
+.ant-form-item-label > label {
+    color: white !important;
+  }

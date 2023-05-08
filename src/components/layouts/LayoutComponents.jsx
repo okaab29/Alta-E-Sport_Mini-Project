@@ -27,9 +27,6 @@ const LayoutComponents = ({ children }) => {
                         {children}
                     </div>
                 </Content>
-
-                {/* Footer */}
-                <FooterComponent/>
             </Layout>
         </div>
     );
